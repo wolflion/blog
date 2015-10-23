@@ -64,7 +64,7 @@
     <article id="post-利用hexo和github搭建静态blog" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/10/23/利用hexo和github搭建静态blog/" class="article-date">
-  <time datetime="2015-10-23T08:31:56.969Z" itemprop="datePublished">2015-10-23</time>
+  <time datetime="2015-10-23T09:09:18.762Z" itemprop="datePublished">2015-10-23</time>
 </a>
     
   </div>
@@ -73,9 +73,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>###1. 本地安装</p>
-<p>###2. 从github上导入</p>
-<ul>
+        <p>title: 利用hexo和github搭建静态blog<br>date: 2015-10-23<br>categories: blog   </p>
+<h3 id="1-_本地安装">1. 本地安装</h3><h3 id="2-_从github上导入">2. 从github上导入</h3><ul>
 <li><p><code>hexo init</code>  //在文件夹下创建相应文件</p>
 <blockquote>
 <p>INFO  You are almost done! Don’t forget to run ‘npm install’ before you start blogging with Hexo!</p>
@@ -91,15 +90,14 @@
 </ul>
 <p><strong>以下是新增</strong><br><code>type: git</code>//<em>注意冒号后的空格</em><br><code>repository: git@github.com:name/name.git</code>//ssh格式而不是https格式，<strong>本地多个key的时候</strong>注意主机名<br><code>branch: master</code></p>
 <p><code>ssh -T git@github.com</code>//本地多个key的时候，注意测试的主机名  </p>
-<p>###常见错误</p>
-<ol>
+<h3 id="常见错误">常见错误</h3><ol>
 <li><code>hexo d</code>发布时提示’ERROR Deployer not found: git<br>‘<br><code>npm install hexo-deployer-git --save</code><br>再确认下_config.yml中的type是不是<strong>git</strong>  </li>
 </ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/10/23/利用hexo和github搭建静态blog/" data-id="cig3elpr10001y0ogxaqivvu0" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/10/23/利用hexo和github搭建静态blog/" data-id="cig3fs4vl0001gcogz9u0sakx" class="article-share-link">Share</a>
       
       
     </footer>
@@ -112,7 +110,7 @@
     <article id="post-github使用常见问题" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/10/23/github使用常见问题/" class="article-date">
-  <time datetime="2015-10-23T08:31:56.967Z" itemprop="datePublished">2015-10-23</time>
+  <time datetime="2015-10-23T09:08:41.938Z" itemprop="datePublished">2015-10-23</time>
 </a>
     
   </div>
@@ -121,37 +119,35 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>###1.github本地使用多个key<br><a href="http://higrid.net/c-art-github_share_ssh.htm" target="_blank" rel="external">本地多个key</a>     </p>
+        <p>title: github使用常见问题<br>date: 2015-10-23<br>categories: blog   </p>
+<h3 id="1-github本地使用多个key">1.github本地使用多个key</h3><p><a href="http://higrid.net/c-art-github_share_ssh.htm" target="_blank" rel="external">本地多个key</a>     </p>
 <ul>
 <li>不管linux还是win，要在.ssh/下新建个config。  </li>
 </ul>
-<p>###2. remote origin already exists</p>
-<blockquote>
+<h3 id="2-_remote_origin_already_exists">2. remote origin already exists</h3><blockquote>
 <p>fatal: remote origin already exists.  </p>
 </blockquote>
 <p><code>git remote rm origin</code><br><code>git remote add origin git@github.com:name/name.git</code>  </p>
-<p>###3. git push后提示 everything up-to-date git  </p>
-<blockquote>
+<h3 id="3-_git_push后提示_everything_up-to-date_git">3. git push后提示 everything up-to-date git</h3><blockquote>
 <p>everything up-to-date git  </p>
 </blockquote>
 <p><code>git status</code>  查看状态<br><code>git log</code>   查看日志<br><em>一般的情况是add或commit失败</em><code>git commit</code>  </p>
-<p>###4. error:failed to push some refs to…….<br>执行<code>git push origin master</code> </p>
+<h3 id="4-_error:failed_to_push_some_refs_to……-">4. error:failed to push some refs to…….</h3><p>执行<code>git push origin master</code> </p>
 <blockquote>
 <p> error:failed to push som refs to…….</p>
 </blockquote>
 <p><a href="http://jingyan.baidu.com/article/f3e34a12a25bc8f5ea65354a.html" target="_blank" rel="external">解决failed to push some refs to </a><br><code>git pull origin master</code>//把远程服务器github上文件拉回来，再push上去。  </p>
-<p>###5. The following untracked working tree files would be overwritten by checkout:  </p>
-<blockquote>
+<h3 id="5-_The_following_untracked_working_tree_files_would_be_overwritten_by_checkout:">5. The following untracked working tree files would be overwritten by checkout:</h3><blockquote>
 <p>The following untracked working tree files would be overwritten by checkout: ReadMe.md    </p>
 </blockquote>
 <p><code>git clean -d -fx</code>  //不太熟悉<br><code>git stash</code>  //不太熟悉</p>
-<p>###命令详解<br><code>git init</code> //当前目录下会创建一个.git的目录<br><code>git clone</code><br><code>git add</code><br><code>git commit -m &#39;comment&#39;</code><br><code>git branch testbranch</code>  //创建分支<br><code>git checkout testbranch</code>  //切换到分支<br><code>git branch</code>  //查看分支<br><code>git branch -r</code>  //查看远程所有分支<br><code>git branch -a</code>  //查看本地和远程的所有分支<br><code>git push origin test</code>//提交test分支到远程git库<br><code>git reset</code>  //不太熟悉<br><code>git rebase</code>  //不太熟悉</p>
-<p>###gitconfig配置文件<br>win环境下在<strong>C:\Documents and Settings\$USER</strong>下。  </p>
+<h3 id="命令详解">命令详解</h3><p><code>git init</code> //当前目录下会创建一个.git的目录<br><code>git clone</code><br><code>git add</code><br><code>git commit -m &#39;comment&#39;</code><br><code>git branch testbranch</code>  //创建分支<br><code>git checkout testbranch</code>  //切换到分支<br><code>git branch</code>  //查看分支<br><code>git branch -r</code>  //查看远程所有分支<br><code>git branch -a</code>  //查看本地和远程的所有分支<br><code>git push origin test</code>//提交test分支到远程git库<br><code>git reset</code>  //不太熟悉<br><code>git rebase</code>  //不太熟悉</p>
+<h3 id="gitconfig配置文件">gitconfig配置文件</h3><p>win环境下在<strong>C:\Documents and Settings\$USER</strong>下。  </p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/10/23/github使用常见问题/" data-id="cig3elpoe0000y0og63d7np7o" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/10/23/github使用常见问题/" data-id="cig3fs4re0000gcogv9y6560b" class="article-share-link">Share</a>
       
       
     </footer>
@@ -196,7 +192,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/10/23/hello-world/" data-id="cig3elpr80002y0ogt6fzuq8r" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/10/23/hello-world/" data-id="cig3fs4w50002gcogo1a5wyah" class="article-share-link">Share</a>
       
       
     </footer>
