@@ -21,8 +21,8 @@ url: http://lionelshen.cn
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: /public/img/deer3.png
-favicon: /public/img/deer3.png
+gavatar: /public/img/lionel.png
+favicon: /public/img/lionel.png
 
 # google analytics 设置
 ga:
