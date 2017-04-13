@@ -29,8 +29,8 @@ favicon: /public/img/lionel.png
 
 # google analytics 设置
 ga:
-  id: UA-54262064-1 
-  url: lionelshen.cn
+#  id: UA-54262064-1 
+#  url: lionelshen.cn
 
 # disqus 设置
 disqus:
