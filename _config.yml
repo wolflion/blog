@@ -5,7 +5,7 @@ markdown: redcarpet
 # 作者信息
 author: 
   name: lionel shen
-  email: lionel.shen@hotmail.com
+  #email
   link: http://lionelshen.cn
   weibo: http://weibo.com/wolflion
   github: http://github.com/wolflion
