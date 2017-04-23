@@ -26,7 +26,13 @@ description:
 	+ 配置复合主键
 	+ 配置外键
 	+ 配置组合外键
-		+ 
+		+ o
+	+ 配置DataType
+		+ `String`->`nvarchar`
+		+ `int`->`int`
+		+ `Byte[]`->`varbinary`  
+		+ `Boolean`->`bit` //不允许为空
+		+ `Datetime`->
 	+ 配置string类型的长度和必填/可选
 		+ `.Property(p => p.Name).HasColumnType("varchar")`
 	+ GUID的Id 
@@ -66,5 +72,6 @@ description:
 + [EF Code First 学习笔记：约定配置](http://www.cnblogs.com/Gyoung/archive/2013/01/17/2864150.html)
 + [Code First约定-Fluent API配置](http://blog.163.com/m13864039250_1/blog/static/2138652482015283397609/)
 + [entityframeworktutorial](http://www.entityframeworktutorial.net/code-first/inheritance-strategy-in-code-first.aspx)
++ [FluentAPI配置](http://www.cnblogs.com/cuijl/p/6737815.html)
 ##  五、复盘&思考
 
