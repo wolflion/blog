@@ -10,6 +10,8 @@ description:
 ##  缘起
 + 2013-01-26就想读参考1了，直到2017-04-23偶然间在图书馆看到，借回来整理一下，同时也下到了电子版。
 + 虽然翻看的是图书馆借来的书，但页数标注的是电子版的，留着以下复习或更新用。
++ 作者用的是适用Kernel2.6以上版本，他自己用的系统是SuSE。
+	+ 我目前远程到的环境是Debian，kernel是3.2。用`uname -a`查看。
 
 ##  内容
 + 目录 11/268
@@ -17,16 +19,36 @@ description:
 + 启动流程
 + 关机流程
 
-###  chap1 Linux目录和基本概念
+###  chap1 Linux目录和基本概念  32+0/268
 + [FHS定义的目录结构](www.pathname.com/fhs)
 + 根目录 `/`
-	+ 根目录的建立
+	+ 根目录的建立（分成三步）
+		+ Step0：之前的动作
+		+ Step1：建立根目录所需的设备文件 提示符‘Creating root device.’
+		+ Step2：先将该设备文件所指的位置（分割区）挂载到【/sysroot】目录下  提示符‘Mounting root filesystem.’
+		+ Step3：切换目录到根目录下  提示符‘Switching to new root and running init.’
 	+ 根目录的意义
+		+ 笔者举的是“Fedora系统下如何进入SuSE”
 	+ 根目录的目录清单
+		+ `find / -maxdepth 2 -type d | wc -l` // 到3层会更多
 
 ###  chap2 不同启动模式的目录
-+ 本地启动`/boot`
-+ 远程启动`/tftpboot`
++ 本地启动由GRUB应用程序支持；网络启动由PXE及TFTP应用程序所支持。
++ 2.1 本地启动`/boot`
+	+ `ls -al /boot`显示所有文件
+		+ 'config-*'
+		+ 'grub'
+		+ 'initrd*'
+		+ 'System.map*'
+		+ 'vmlinuz*'
+		+ '*.zen*'：*是我的环境所没有的*。用于虚拟的操作系统启动
+	+ 2.1.1 /boot/grub
+		+ Stage1阶段
+		+ Stage1.5阶段
+		+ Stage2阶段
+	+ 2.1.2 System.map文件
+	+ 2.1.3 kernel及initrd
++ 2.2 远程启动`/tftpboot`
 
 ###  chap3 Kernel Sapce与User Space的桥梁--虚拟文件系统
 + Kernel Sapce与User Space的差别，**在于内存使用上安全机制的差异**。
@@ -60,10 +82,11 @@ description:
 + 7.3 自动挂载服务目录 `/misc`
 
 ##  收获
-+ 2017-04-23花了1个多番茄钟的时间，通读了本书并整了下目录，觉得笔者把`/`所有内容列举了一下，自己则关注以下三个方面：
++ 2017-04-23花了2个多番茄钟的时间，通读了本书并整了下目录，觉得笔者把`/`所有内容列举了一下，自己看完了chap1和chap2后，全书则关注以下三个方面，以及自己grub时碰到的一个问题：
 	+ （1）启动和关闭的流程
 	+ （2）应用程序目录
 	+ （3）系统配置目录 `/etc`
+	+ 问题1：我们的debian系统在启动时，无法加载盘符，我只能等进入grub页面时，通过`E`进入编辑时，然后输入`Ctrl+X`再执行，我今天看了下，`/boot/grub/grub.conf`文件不存在啊。
 
 ##  参考
 + 1、[《Linux系统架构与目录解析》](https://book.douban.com/subject/3592797/) 

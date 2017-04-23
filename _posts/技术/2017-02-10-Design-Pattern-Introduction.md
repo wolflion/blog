@@ -29,7 +29,7 @@ description:
 	+ 接口
 		+ *斜体，并用`<<interface>>`修饰*
 	+ 注释
-+ 类与类之间的关系
++ [类与类之间的关系](http://blog.csdn.net/tianhai110/article/details/6339565)
 	+ Generalization泛化关系（继承）
 		+ 描绘子类与父类的关系 *实线空心三角*
 	+ Realization实现关系
