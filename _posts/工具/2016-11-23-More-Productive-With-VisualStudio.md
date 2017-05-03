@@ -1,7 +1,7 @@
 ---   
 layout: post    
 title: Microsoft Visual Studio的快捷使用方式{未完}           
-category: 技术    
+category: 工具      
 tags: 工具     
 keywords:      
 description:     
