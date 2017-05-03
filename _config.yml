@@ -1,6 +1,7 @@
 permalink: /:year/:month/:day/:title.html
 paginate: 10
-markdown: redcarpet
+#markdown: redcarpet
+markdown: kramdown
 
 # 作者信息
 author: 
@@ -43,7 +44,7 @@ active: 读书
 # 首页除了最新文章外显示分类
 cates: 
   - 通用
-  - Tool
+  - 工具
 
 # 中文本地化
 locals:
