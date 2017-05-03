@@ -1,7 +1,7 @@
 ---
 layout: post  
 title: 骑行：青岛到乳山  
-category: 户外  
+category: 生活     
 tags: 户外     
 keywords:   
 description:   
