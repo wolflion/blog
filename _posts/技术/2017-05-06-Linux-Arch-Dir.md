@@ -21,7 +21,7 @@ description:
 + 关机流程
 
 ###  chap1 Linux目录和基本概念  32+0/268
-+ [FHS定义的目录结构](www.pathname.com/fhs)
++ [FHS定义的目录结构](http://www.pathname.com/fhs)
 + 根目录 `/`
 	+ 根目录的建立（分成三步）
 		+ Step0：之前的动作
