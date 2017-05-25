@@ -2,7 +2,7 @@
 layout: post  
 title: C语言：知识点整理 （未完）  
 category: 技术  
-tags: 通用     
+tags: 编程语言        
 keywords: C语言      
 description:    
 ---  
