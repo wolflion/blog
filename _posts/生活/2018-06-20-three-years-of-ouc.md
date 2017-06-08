@@ -31,12 +31,12 @@ description:
 + 2015-11-11在TB上花了65.47块； [BOOKDARTS-75枚](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.d4qbph&id=17316052034&_u=815t0q9bbc6)
 + 2015-11-11在TB上花了179块； [swissgear拉杆箱万向轮20寸](https://detail.tmall.com/item.htm?id=523167501923&spm=a1z09.2.0.0.d4qbph&_u=815t0q94d54&sku_properties=21433:32102)
 + 2016-03-25在jd上花了328块；白条6期 [铁三角ATH-FC707](https://item.jd.com/676625.html)
-+ 2016-07-01在TB上花了770块；花呗 期 [罗西尼5609/5610](https://detail.tmall.com/item.htm?id=41321099691&spm=a1z09.2.0.0.d4qbph&_u=815t0q907b7&skuId=3156831083514)
-+ 2016-07-08在TB上花了110块； [schneider经典BASE-0.35mm](https://detail.tmall.com/item.htm?id=528383463213&spm=a1z09.2.0.0.d4qbph&_u=815t0q9b9b4)
++ 2016-07-01在TB上花了770块；花呗3期 [罗西尼5609/5610](https://detail.tmall.com/item.htm?id=41321099691&spm=a1z09.2.0.0.d4qbph&_u=815t0q907b7&skuId=3156831083514) *返利292.6*
++ 2016-07-08在TB上花了110块； [schneider经典BASE-0.35mm](https://detail.tmall.com/item.htm?id=528383463213&spm=a1z09.2.0.0.d4qbph&_u=815t0q9b9b4) *返利58.3*
 + 2016-08-15在jd上花了3799块；白条6期 [SE(A1723)64G银](https://item.jd.com/1856656.html)
 + 2016-08-23在jd上花了449块 [ikbc c104黑色茶轴](https://item.jd.com/3093299.html)
 + 2016-11-02在TB上花了849块；花呗12期 [华为B3手环](https://detail.tmall.com/item.htm?id=532012389820&spm=a1z09.2.0.0.d4qbph&_u=815t0q9c09a&skuId=3437671739007)
-+ 2016-12-02在jd上花了250块；白条12期 [Timbuk2 黑色/红色TKB384-3-1043](https://item.jd.com/10393884060.html) 
++ 2016-12-02在jd上花了30+220块；220块分白条12期 [Timbuk2 黑色/红色TKB384-3-1043](https://item.jd.com/10393884060.html) *返利4.5*
 + 2017-01-14在jd上花了1399块；白条6期 [铁威马（TerraMaster）F2-220](https://item.jd.com/2496010.html) 
 + 2017-01-14在jd上花了199块；白条12期 [森海塞尔（Sennheiser） PX95](https://item.jd.com/969150.html) 
 
