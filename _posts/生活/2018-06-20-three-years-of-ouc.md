@@ -38,7 +38,8 @@ description:
 + 2016-11-02在TB上花了849块；花呗12期 [华为B3手环](https://detail.tmall.com/item.htm?id=532012389820&spm=a1z09.2.0.0.d4qbph&_u=815t0q9c09a&skuId=3437671739007)
 + 2016-12-02在jd上花了30+220块；220块分白条12期 [Timbuk2 黑色/红色TKB384-3-1043](https://item.jd.com/10393884060.html) *返利4.5*
 + 2017-01-14在jd上花了1399块；白条6期 [铁威马（TerraMaster）F2-220](https://item.jd.com/2496010.html) 
-+ 2017-01-14在jd上花了199块；白条12期 [森海塞尔（Sennheiser） PX95](https://item.jd.com/969150.html) 
++ 2017-06-07在jd上花了199块；白条12期 [森海塞尔（Sennheiser） PX95](https://item.jd.com/969150.html) 
++ 2017-06-18在jd上花了296.65块；白条6期 [博朗 3系3020](https://item.jd.com/1792276.html) 
 
 ## 别人写的
 + [研究生三年-致自己](http://wap.sciencenet.cn/blogview.aspx?id=901638)
