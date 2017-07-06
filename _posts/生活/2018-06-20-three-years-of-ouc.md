@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: 我在中海大的三年{没结束}     
-category: 总结     
-tags: 美食     
+category: 生活          
+tags: 总结          
 keywords:   
 description:   
 ---  
