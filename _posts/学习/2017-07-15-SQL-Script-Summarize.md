@@ -12,6 +12,33 @@ description:
 
 ##  内容
 
+###  表、索引和视图
++ 表
+	+ 重命名 `sp_name old_name,new_name`
+		+ **表名改变之后，相关视图仍然可以工作**。因为存储在系统表sysobjects中该表的对象id并未改变。
+	+ 向表中添加列 `ALTER TABLE table_name add fax varchar(15) NULL`
++ 临时表
+	+ **临时表**是在数据库tempdb中创建的真实表，它常用来保存中间结果。
++ 用INSERT添加行
+	+ `INSERT tbale() VALUES()`
+	+ `INSERT tbale() SELECT * FROM table` 用SELECT插入多行
+	+ `INSERT table EXEC p1 'business'` p1是存储过程，'business' 是参数。
++ 用UPDATE来修改行
+	+ `update table SET price = price*2`
++ 用DELETE来删除行
+	+ `DELETE table WHERE type="business"`
+	+ `DELETE table` 删除表中所有行。
+	+ **虽然DELETE删除表行在速度上慢一些，但比较安全**。因为DELETE操作可撤销，能够恢复原来的数据。
++ 用TRUNCATE TABLE清除表
+	+ `TRUNCATE TABLE titles`**清除了表中的所有行，但保留了表的定义** 
++ 使用索引
+	+ 索引类型
+	+ 创建索引
+	+ 有关索引的注意事项
++ 视图 
+	+ 视图信息的获取 `sp_help`
+		+ `EXEC sp_help viewName`
+
 ###  查询
 + 使用LIKE及通配符
 + Order By排序

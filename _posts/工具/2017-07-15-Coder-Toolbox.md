@@ -1,0 +1,41 @@
+---   
+layout: post    
+title: 码农的工具箱（我的日常工具使用）           
+category: 工具      
+tags: 工具     
+keywords:      
+description:     
+---  
+
+##  缘起
++ 其实很早就想列一下了，但直到2017-03-02写了个“[常用的软件、工具（2017）](https://github.com/wolflion/ReadNote/blob/master/%E6%80%9D%E8%80%83%E8%BE%93%E5%87%BA/%E8%87%AA%E5%B7%B1%E5%BF%83%E5%BE%97/%E5%B8%B8%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E3%80%81%E5%B7%A5%E5%85%B7%EF%BC%882017%EF%BC%89.md)”
++ 前两天又折腾了一下自己的TC，所以2017-07-17来统一更新一下。
++ 其实很多工具，我也是在网上找来后，才在日常中应用起来的。
+
+##  内容
+###  Windows环境
+#### 桌面、效率工具
++ Listary [下载](http://www.sdifen.com/listarypro5.html)
+	+ *以前只用everything，2017-07-16发现这个，虽然不支持正则表达式，通配符的查找，与everything配合使用*
++ Everything
++ chrome  
+	+ **主要是插件的使用**，*2017-07-15之前用chrome下载百度网盘的pdf，下的都不全，以致于都没法打开*，码农的作用就体现出来，就找了相关的插件。
+		+ AdBlock 屏蔽广告 
+		+ IETab  切换到ie的内核去
+		+ Tampermonkey  可以用迅雷下载百度网盘的资料
++ DuplicateCleaner
+	+ 重复文件查找工具，2017-07-16刚发现使用。
++ Total Commader
+	+ 基本就抛弃了Windows的资源管理器了。
+	+ 之前改文件名很麻烦，不支持F2，只能用`Ctrl+M`，网上搜了一下可以直接改**.ini文件**，后来意识到不能生效的地方，win环境都可以改.ini文件的方式。
+
+###  Mac环境
+
+###  Linux环境
+
+###  其它硬件
+
+
+##  参考
++ [作为程序员的你，常用的工具软件有哪些？](https://www.zhihu.com/question/22867411)
++ [oschina提供的在线工具](http://tool.oschina.net/) 编码相关的
