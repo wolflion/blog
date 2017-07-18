@@ -35,6 +35,35 @@ description:
 + **语音识别**，“系统偏好设置”->“键盘”->"听写"，*下次找不到某功能时，记得用搜索功能。*
 + **特殊字符输入**，记得用`option`+数字键那一排的。
 + **三指轻拍查找**，在单词上三指轻拍，就能出现单词解释。*还是英英的哦*，“系统偏好设置”->“触控板”。
++ **网络共享**，这个可以多尝试
++ **快速查看**，在Finder或桌面上，选中一个文件并按空格键，系统就会弹出预览界面。`qlmanage -p filename`也可以做到这个功能。
++ **显示桌面**在win中是`win+D`，在Mac中应该是*四指划开*，当然也可以用`command+F3`。
++ 把下载后的字典拷贝到`~/Library/Dictionaries`，这样能**增加字典**。
++ **查看电源状况**
++ `man -t grep | open -f -a Preview`将man文档导成pdf。
++ **隐藏的空间切换功能**，*这个感觉目前用不到，Space是什么个概念，其实我没太懂。*
++ **去除右键菜单的重复项** *这个也留着要用的时候网上查吧*
++ **多个用户登录一个程序**，可以用`open -n /Applications/XXX.app`
++ 强制关闭程序
+	+ `option+command+esc`
+	+ 打开*活动监视器*
+	+ 命令行下用kill命令
++ **Automator**没用过
++ **终端命令**`lsof`
++ 只粘贴纯文本
+	+ `shift+option_command+v`
++ 重启Finder
+	+ 按`option`键，右键单击Dock上的Finder图标，选择“重新开启”的选项。
++ **Spotlight检索**
+	+ kind:文件类型
+	+ date:today
+	+ kind:key Mac -Windows
+	+ 重建索引 `sudo mdutil -i on /`
+	+ 关闭索引 `sudo mdutil -i off /`
+	+ 删除索引 `sudo mdutil -E /`
++ 选择文本
+	+ command+鼠标，选中不同位置的文本内容
+	+ option+鼠标，对文本进行块选
 
 ###  Part2 快捷键
 + `ctrl+sapce`能呼出**Spotlight**
@@ -48,16 +77,26 @@ description:
 + 输入法的过程中`shift+6`可以输入表情符号，我装的五笔也可以用。
 + Safari中想在新的标签页打开网页时，只需要按住`command`键,单击链接即可。通过`shift+command`+左右方向键，可以快速在Safari中打开的标签中进行切换。
 	+ **Safari的阅读器**，可以通过`shift+command+r`进入。当然还可以用Safari的插件**CustomReader**。
-+ `history | grep apache`找到编号，但再执行一次的时候，只要输入!编号即可，如`!1001`。
++ `history | grep apache`找到编号，但再执行一次的时候，只要输入!编号即可，如`!001`。
 + 在当前应用程序时，可以用`command+n`再建一个。
 + 彻底退出当前应用程序，`command+q`
 + `shift+option+command+delete`直接清倒废纸篓。
 + 在终端中，想打开某个文件目录的Finder，可以使用`open`+路径
 + `pmset noidle`让电脑不进入休眠状态，关掉终端或`ctrl+C`可取消该命令。
++ `command+a`和`command+c`复制某个目录下所有文件的文件名列表。
++ `chflags hidden ~/Desktop/*`隐藏桌面内容；`chflags nohidden ~/Desktop/*`显示桌面内容；
++ `option+command+h`隐藏程序，用`command+tab`切换。
++ `locate file`根据文件名快速定位文件。
++ `ctrl+command+n`可以找开录制屏幕功能。
++ `defaults delete com.apple.screencapture location`恢复截屏图片默认保存路径。
++ **`mdfind`**是一个非常灵活的全局搜索命令。
++ **`mdls`**可以列出某个文件或文件夹的所有元数据信息。 当然与`file name`效果是一样的。
 
 ###  Part3 Finder的使用
 + 选中文件后按**回车**是对*文件重命名*。
-+ *文件打开*可以用**鼠标双击**和快捷键`Command+o` 
++ *文件打开*可以用**鼠标双击**和快捷键`Command+o`
++ 用Finder中打开某个文件夹下所有子文件夹`command+2`
++ **XtraFinder** 
 
 ###  Part4 用好工具
 + 日常工作
@@ -117,6 +156,10 @@ description:
 	+ Go2Shell 
 	+ CatchMouse
 	+ F.lux调节屏幕色温
+	+ *AppleScript小程序*和*Homebrew*的使用；
+	+ 显卡监控软件gfxCardStatus
+	+ Pixelmator图像处理软件
+	+ Imagine代替OS X自带的TextEdit。
 
 ##  参考
 + 1、 [mac终端命令大全介绍](https://www.douban.com/note/75797151/)

@@ -73,5 +73,6 @@ description:
 + [Code First约定-Fluent API配置](http://blog.163.com/m13864039250_1/blog/static/2138652482015283397609/)
 + [entityframeworktutorial](http://www.entityframeworktutorial.net/code-first/inheritance-strategy-in-code-first.aspx)
 + [FluentAPI配置](http://www.cnblogs.com/cuijl/p/6737815.html)
++ [Entity Framewokr一个博客系列](http://www.cnblogs.com/dudu/tag/Entity%20Framework/)
 ##  五、复盘&思考
 
