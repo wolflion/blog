@@ -28,6 +28,10 @@ description:
 + Total Commader
 	+ 基本就抛弃了Windows的资源管理器了。
 	+ 之前改文件名很麻烦，不支持F2，只能用`Ctrl+M`，网上搜了一下可以直接改**.ini文件**，后来意识到不能生效的地方，win环境都可以改.ini文件的方式。
++ [Dropit](http://www.ihacksoft.com/dropit.html)
+	+ 文件分类神器，20170719使用；
+	+ 建立好规则后，然后把相应文件拖放到**规则图标上**。*不过比较不好的是，下载盘的文件都需要建立规则，不然一个取消，之前的的操作都没了。*
+	+ *可以再看看 Sort My Files*
 
 ###  Mac环境
 
