@@ -31,7 +31,9 @@ description:
 + [Dropit](http://www.ihacksoft.com/dropit.html)
 	+ 文件分类神器，20170719使用；
 	+ 建立好规则后，然后把相应文件拖放到**规则图标上**。*不过比较不好的是，下载盘的文件都需要建立规则，不然一个取消，之前的的操作都没了。*
-	+ *可以再看看 Sort My Files*
+	+ *可以再看看 *
++ [Sort My Files](http://www.vag-lab.com/blog/sort-my-files/)
+	+ 更适合使用场景，把相应盘符的文件先按文件后缀归类。
 
 ###  Mac环境
 
@@ -43,3 +45,4 @@ description:
 ##  参考
 + [作为程序员的你，常用的工具软件有哪些？](https://www.zhihu.com/question/22867411)
 + [oschina提供的在线工具](http://tool.oschina.net/) 编码相关的
++ [小众软件](http://www.appinn.com/)
