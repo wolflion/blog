@@ -23,6 +23,7 @@ description:
 + 属性映射
 	+ 配置主键 
 		+ `HasKey(b => b.ID); `
+		+ `Property(b => b.ID).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity); //主键自增`
 	+ 配置复合主键
 	+ 配置外键
 	+ 配置组合外键
@@ -41,7 +42,8 @@ description:
 	+ 更改数据库中的model的默认字段名
 		+ `Property(p => p.Name).HasColumnName("DBName");` 
 	+ 时间戳 
-		+  `Property(p => p.TimeStamp).IsRowVersion();` 
+		+  `Property(p => p.TimeStamp).IsRowVersion();`
+		+   `Property(p => p.TimeStamp).IsRowVersion().IsFixedLength();` //将列配置为固定长度
 		+ 在Model层的定义 `public Byte[] TimeStamp { get; set; }` 
 + [类型映射](http://www.jianshu.com/p/4b043b3a7df5)
 	+ 映射TPH
