@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: EntityFramework在重构项目中的使用 （未完）     
+title: 从数据库开始重构老系统     
 category: 技术    
 tags: 项目      
 keywords:        

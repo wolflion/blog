@@ -52,6 +52,11 @@ description:
 + 配置关系
 	+ 配置（1-0...1）关系 
 	+ 配置（1-1）关系
+	+ 配置（1-n）关系
+		+ `HasMany(b => b.Projects)
+                .WithOptional(p => p.Base)
+                .HasForeignKey(p => p.BaseId)
+                .WillCascadeOnDelete(false);`
 	+ 配置（n-n）关系
 + 配置导航属性
 + 启用级联删除
