@@ -31,4 +31,10 @@ description:
 ###  重要的工具
 + **github客户端**
 	+ 之前用的是*Gtihub desktop*，主要觉得每次打开的时间太长，于是发现[TortoiseGit](https://tortoisegit.org/)支持github上取数据。*官网了下载，并下了个语言包，同时还要提前安装[git](https://git-scm.com/)。*
-	+ 安装好后，发现右击时没有[tortoiseGit相应的选项](http://bbs.csdn.net/topics/390548542)。*开始以为是自己在setting里的配置问题，果然是重启治百病。*
+	+ 安装好后，发现右击时[没有tortoiseGit相应的选项](http://bbs.csdn.net/topics/320259352)。*开始以为是自己在setting里的配置问题，果然是重启治百病。*
+        + 参考：[更新Svn客户端后，右键菜单中没有TortoiseSVN  ](http://qs52.blog.163.com/blog/static/210151592013111841954672)
+    + 第一次还不太会用，网上找了个[方法](http://www.jb51.net/article/55440.htm),*这个虽然全吧，但没有说清楚*。又找了个相对说清楚的[方法](http://blog.csdn.net/yuanzichao/article/details/44922593)。
+        + 用tortoiseGit自带的`PuTTYKey` 生成相应的key，拷贝到`github.com`的ssh Keys里去。
+    + push了两次发现每次都要[输入用户名和密码](http://www.cnblogs.com/sapho/p/6140331.html)。
+        + **修改了下本地的..gitconfig文件**里加了`[credential helper = store ]`
+        + [网上的方案2](http://blog.csdn.net/kongjiea/article/details/40585869)
