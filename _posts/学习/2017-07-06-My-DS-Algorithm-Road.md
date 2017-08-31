@@ -47,15 +47,20 @@ description:
 #### chap4 串  20170728
 
 #### chap6 树 
+
 #### chap7 图
+
 #### chap8 查找
 + 静态表的查找
-    + 顺序查找 
-    + 折半查找
+    + [顺序查找](https://github.com/wolflion/data_struct/blob/master/chap08Find/chazhao.c) ，当然 *也有[改进版](https://github.com/wolflion/data_struct/blob/master/chap08Find/chazhao1.c)*
+    + [折半查找](https://github.com/wolflion/data_struct/blob/master/chap08Find/zheban.c)
     + 分块查找
 + 动态树的查找
+    + [创建二叉树，并将数据插入到节点中ercha.c]()
+    + [删除二叉树中一个节点erdel.c]()
 + 哈希表的查找
 + 索引查找
+
 #### chap9 [排序](https://github.com/wolflion/data_struct/tree/master/chap9Sort)  20170319
 + 插入排序
     + 直接插入

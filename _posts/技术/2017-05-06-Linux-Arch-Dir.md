@@ -14,11 +14,18 @@ description:
 	+ 我目前远程到的环境是Debian，kernel是3.2。用`uname -a`查看。
 
 ##  内容
++ 序
+    + *做好一件事，就要有自己的想法和目标，不要管别人，管自己能不能做好。* Juergen.chiu@gmail.com  
 + 目录 11/268  
 
 ###  chap0  
 + 启动流程
+    + 1系统预处理程序->GRUB->Kernel->initrd
+    + 2init启动->inittab->rc.sysinit(functions加载Linux系统一些内置的功能及变量)->modules(rcX.d)->4字符模式->tty->Bash
+    + rcX.d->3图形模式->进入X Window->gdm->Xorg(XWindow的主要环境接口)->gdm login->GNOME Session
 + 关机流程
+    + 5关机(shutdown)或重启(reboot)->Close Service->Kill all processes->halt(reboot)
+    + 6休眠(sleep)->suspend(standby)/Hibernate->载入function->关闭设备
 
 ###  chap1 Linux目录和基本概念  32+0/268
 + [FHS定义的目录结构](http://www.pathname.com/fhs)

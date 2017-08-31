@@ -79,6 +79,17 @@ description:
 
 ###  chap5 函数
 
+
+##  代码执行过程中遇到的错
+###  win下写的sh脚本传到linx平台后存在`^M`
++ `dos2unix`没有的话，可以在vim模式下`: %s/^M//g`
++ vim模式下`:set ff=unix`这是`\r\n`与`\r`的区别，`:w test.sh`可以另存为test.sh
++ 参考
+    + [shell调试 去掉^M](http://blog.csdn.net/su_linux/article/details/16337923)
+    + [linux下去掉ctrl+M的方法](https://wenku.baidu.com/view/4c1e950703d8ce2f00662398.html)
+    + [windows下编写shell脚本放到linux运行问题](http://blog.csdn.net/athenaer/article/details/7352309)
+    + [我使用过的Linux命令系列总目录](http://codingstandards.iteye.com/blog/786653)
+
 ##  参考
 + 1、[《Linux Shell编程与编辑器使用详解》](https://book.douban.com/subject/24868431/) 
 	+ 也就chap1、11-15是讲shell本身的，其它都是讲Linux环境配置以及命令的。	
