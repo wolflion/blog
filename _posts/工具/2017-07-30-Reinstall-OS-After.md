@@ -25,7 +25,9 @@ description:
 + everything
 + CCleaner
 + Sublime Text
+    + 之前用过“Notepad++”  
 + Total Commander
+    + 之前有用过"FreeCommander XE"
 + beyondcompare
 
 ###  重要的工具
@@ -38,3 +40,20 @@ description:
     + push了两次发现每次都要[输入用户名和密码](http://www.cnblogs.com/sapho/p/6140331.html)。
         + **修改了下本地的..gitconfig文件**里加了`[credential helper = store ]`
         + [网上的方案2](http://blog.csdn.net/kongjiea/article/details/40585869)
+    + 如果之前保存了`.ppk`的文件
+        + 只需要启用TortoiseGit里的Pageant，右击图标->Add Key->然后加载ppk文件。[参考](http://jingyan.baidu.com/article/495ba841f2892638b30edefa.html)
+
+###  之前下过的一些工具
++ EndNote
++ navicat  连SqlServer08R2数据库
++ FSCapture 截图
++ StarUML 
++ Anki 也没用过
++ MarkdownPad 2 ,Mdcharm，
++ 开发工具
+    + IntelliJ IDEA 
+    + CLion
+    + Resharper  
++ Lingoes 
++ wireshark,Winpcap
++ Spyder
