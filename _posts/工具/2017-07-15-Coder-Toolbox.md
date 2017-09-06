@@ -13,6 +13,11 @@ description:
 + 其实很多工具，我也是在网上找来后，才在日常中应用起来的。
 
 ##  内容
+###  开发环境
++ [git](https://git-scm.com/)，[tortoisegit](https://tortoisegit.org/)用于提交github。
++ [mingw](http://mingw.org/)用于gcc或g++编译代码，[cmder](http://cmder.net/)用于命令行操作。
+	+ `Cmder.exe /REGISTER ALL` 用于配置cmder的右键菜单，[cmder使用教程](http://jingyan.baidu.com/article/63acb44acc855461fcc17ea6.html)。
+
 ###  Windows环境
 #### 桌面、效率工具
 + Listary [下载](http://www.sdifen.com/listarypro5.html)

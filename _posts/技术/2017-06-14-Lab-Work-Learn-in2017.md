@@ -18,6 +18,11 @@ description:
 ###  前端相关
 
 ###  工具类
++ MinGW、Cmder、g++
+    + 错误1“ [cannot open output file a.exe](https://zhidao.baidu.com/question/536410790.html) ”
+        + a.exe在窗口被打开，如果任务栏看不到，进程里kill掉。
+    + 错误2“[undefined reference to `WinMain@16](http://blog.csdn.net/chuck_0430/article/details/8824762) ”
+        + `int main()`时，main写成mian或者maian啥的了。  
 
 ##  同门汇报收获&触发的思考
 ###  2017-06-14上半年（*主要只记了一下我想关注的*）
