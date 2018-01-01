@@ -89,8 +89,9 @@ description:
     + [chap14]
     + [chap15]
 + 《C语言进阶》
-    + [chap10]
-    + [chap11]  
+    + [chap10陷阱知识点剖析](https://github.com/wolflion/GitHubCode/blob/master/C%26CPP/C/C%E8%AF%AD%E8%A8%80%E8%BF%9B%E9%98%B6/chap10%E9%99%B7%E9%98%B1%E7%9F%A5%E8%AF%86%E7%82%B9%E5%89%96%E6%9E%90/chap10%E9%99%B7%E9%98%B1%E7%9F%A5%E8%AF%86%E7%82%B9%E5%89%96%E6%9E%90.md)
+        + sizeof()和strlen；const；voltile；
+    + [chap11必须掌握的常用算法](https://github.com/wolflion/GitHubCode/blob/master/C%26CPP/C/C%E8%AF%AD%E8%A8%80%E8%BF%9B%E9%98%B6/chap11%E5%BF%85%E9%A1%BB%E6%8E%8C%E6%8F%A1%E7%9A%84%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/chap11%E5%BF%85%E9%A1%BB%E6%8E%8C%E6%8F%A1%E7%9A%84%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95.md#112-冒泡排序法)
 
 ##  履历
 + 目前参考的3本书
