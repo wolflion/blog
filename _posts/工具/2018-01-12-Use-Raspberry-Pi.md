@@ -26,6 +26,7 @@ description:
 + 开启root权限
     + 用vi编辑`/etc/ssh/sshd_config`文件，找到`PermitRootLogin`，之前这行是用`#`注释的，去掉注释，改为`PermitRootLogin yes`，重启一下sshd服务。
     + 执行`sudo passwd root`，输入密码，这样就可以用root登录了。
+    + 写一个`hello.cpp`，用`g++`编译一下，没问题。
 + 配置wifi
 
 ###  tips
@@ -35,4 +36,5 @@ description:
 ###  链接
 + [树莓派实验室](http://shumeipai.nxez.com/)
 ###  书
-+ 
++ 《爱上Raspberry Pi》 *电子版*【看完再评】
++ 《树莓派开发实战2nd》 *图书馆*【看完再评】
