@@ -21,6 +21,7 @@ description:
     + ssh工具  
         + 我买的3b没有开启22端口，会提示`Could not connect to '192.168.1.108' (port 22): Connection failed.`。
         + 解决方案是**进入根目录，新建`ssh`的空文件就OK了**
+
 ###  连接系统
 + ssh连上后，用默认的账号`pi`和密码`raspberry`登录即可。
 + 开启root权限
@@ -31,6 +32,7 @@ description:
 
 ###  tips
 + `sudo iwlist scan`用来扫描wifi
++ 安装JDK，直接执行了`sudo apt-get install oracle-java8-jdk`，并不需要配置JAVA或者JAVA_HOME。
 
 ##  一些成体系的资料
 ###  链接
