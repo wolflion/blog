@@ -13,6 +13,10 @@ description:
 
 ##  内容
 
+### chap30、[线程：线程同步](https://www.cnblogs.com/fewolflion/p/14209297.html)
+
++ 1、互斥量和条件变量`pthread_cond_t`
+
 ### chap31、[线程：线程安全和每线程存储](https://www.cnblogs.com/fewolflion/p/14204253.html)
 
 + 1、什么是**线程安全**【多个线程同时调用】，什么是**可重入函数**【无需使用互斥量即可实现线程安全】。
@@ -24,7 +28,7 @@ description:
   + `int *pthread_getspecific(pthread_key_t key)`
 + 5、**线程局部存储**：在全局变量声明时加入`__thread`关键字。
 
-### 
+### chap32、[线程：线程取消](https://www.cnblogs.com/fewolflion/p/14209205.html)
 
 ## 履历
 + 20201228-chap31第一遍阅读和整理。
