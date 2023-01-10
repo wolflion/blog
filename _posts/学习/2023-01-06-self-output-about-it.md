@@ -26,7 +26,28 @@ description:
 + 8、[排序](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/01DataStruct/08%E6%8E%92%E5%BA%8F.md)
 + 9、[查找](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/01DataStruct/09%E6%9F%A5%E6%89%BE.md)
 
-### 二、算法
+### 二、操作系统
+
++ 1、[绪论](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/01%E7%BB%AA%E8%AE%BA.md)
++ 2、操作系统运行环境
++ 3、进程管理
+  + 3.1、进程与线程
+  + 3.2、[进程同步与互斥](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/03%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86-2%E5%90%8C%E6%AD%A5%E4%B8%8E%E4%BA%92%E6%96%A5.md)
+    + 同步与互斥：
+    + 临界区与临界区资源：
+  + 3.3、[死锁](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/03%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86-3%E6%AD%BB%E9%94%81.md)
+    + 死锁的4个必要条件：互斥、不可剥夺、请求和保持、循环等待
+    + 死锁预防：资源的静态分配（不可剥夺）、资源的有序分配（循环等待）
+    + 死锁避免：**对资源申请进行动态检查**，银行家算法
+    + 死锁检测：**存在“循环等等”条件**
+    + 死锁解除：剥夺资源、撤销进程
+    + 资源分配图
+    + 哲学家就餐
++ 4、存储管理
++ 5、文件管理
++ 6、I/O管理
+
+### 三、算法
 
 ### C++面试题
 
