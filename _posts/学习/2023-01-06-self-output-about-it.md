@@ -43,7 +43,8 @@ description:
     + 死锁解除：剥夺资源、撤销进程
     + 资源分配图
     + 哲学家就餐
-+ 4、存储管理
++ 4、[存储管理](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/04%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86.md)
+  + 这里的存储更多是**内存**，因为多道程序设计（数据共享、进程通信），有了**分区**的想法，但如何引入**"虚存"**，又是如何实现的呢？
 + 5、文件管理
 + 6、I/O管理
 
