@@ -18,9 +18,12 @@ description:
 ###  一、数据结构
 + 1、[绪论](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/01DataStruct/01%E7%BB%AA%E8%AE%BA.md)
 + 2、[线性表](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/01DataStruct/02%E7%BA%BF%E6%80%A7%E8%A1%A8.md)
+  + 顺序表：**要先分配一段空间**，不管是用数组`int data[100]`，还是用`int *base=new int[100]`两种
+  + 链表：
 + 3、[栈、递归、队列（受限的线性表）](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/01DataStruct/03%E6%A0%88%E3%80%81%E9%80%92%E5%BD%92%E3%80%81%E9%98%9F%E5%88%97.md)
 + 4、[串、稀疏矩阵、广义表](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/01DataStruct/04%E4%B8%B2%E3%80%81%E7%A8%80%E7%96%8F%E7%9F%A9%E9%98%B5%E3%80%81%E5%B9%BF%E4%B9%89%E8%A1%A8.md)
 + 5、[树与二叉树](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/01DataStruct/05%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91.md)
+  + 先序（**先根序**），其它2种定义类推
 + 6、[图](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/01DataStruct/06%E5%9B%BE.md)
 + 7、[高级数据结构](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/01DataStruct/07%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
 + 8、[排序](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/01DataStruct/08%E6%8E%92%E5%BA%8F.md)
@@ -29,7 +32,9 @@ description:
 ### 二、操作系统
 
 + 1、[绪论](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/01%E7%BB%AA%E8%AE%BA.md)
-+ 2、操作系统运行环境
++ 2、[操作系统运行环境](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/02%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83.md)
+  + CPU相关知识，目态、管态
+  + 中断、异常、系统调用
 + 3、进程管理
   + 3.1、进程与线程
   + 3.2、[进程同步与互斥](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/03%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86-2%E5%90%8C%E6%AD%A5%E4%B8%8E%E4%BA%92%E6%96%A5.md)
