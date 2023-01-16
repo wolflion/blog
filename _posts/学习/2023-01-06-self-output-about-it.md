@@ -65,9 +65,10 @@ description:
   + 中断、异常、系统调用
 + 3、进程管理
   + 3.1、进程与线程
-  + 3.2、[进程同步与互斥](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/03%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86-2%E5%90%8C%E6%AD%A5%E4%B8%8E%E4%BA%92%E6%96%A5.md)
+  + 3.2、[进程同步与互斥](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/03%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86-2%E5%90%8C%E6%AD%A5%E4%B8%8E%E4%BA%92%E6%96%A5.md)  **P是减1，V是加1**
     + 同步与互斥：
     + 临界区与临界区资源：
+    + 重点：**P、V操作，本质上还是得想一下，逻辑上怎么整**，然后再定义相关信号量，*要好好琢磨，lionel*
   + 3.3、[死锁](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/03%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86-3%E6%AD%BB%E9%94%81.md)
     + 死锁的4个必要条件：互斥、不可剥夺、请求和保持、循环等待
     + 死锁预防：资源的静态分配（不可剥夺）、资源的有序分配（循环等待）
