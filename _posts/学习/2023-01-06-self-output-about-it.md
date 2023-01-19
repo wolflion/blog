@@ -64,7 +64,7 @@ description:
   + CPU相关知识，目态、管态
   + 中断、异常、系统调用
 + 3、进程管理
-  + 3.1、进程与线程
+  + 3.1、[进程与线程](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/03%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86-1%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B.md)
   + 3.2、[进程同步与互斥](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/03%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86-2%E5%90%8C%E6%AD%A5%E4%B8%8E%E4%BA%92%E6%96%A5.md)  **P是减1，V是加1**
     + 同步与互斥：
     + 临界区与临界区资源：
@@ -79,35 +79,38 @@ description:
     + 哲学家就餐
 + 4、[存储管理](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/04%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86.md)
   + 这里的存储更多是**内存**，因为多道程序设计（数据共享、进程通信），有了**分区**的想法，但如何引入**"虚存"**，又是如何实现的呢？
-+ 5、文件管理
-+ 6、I/O管理
++ 5、[文件管理](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/05%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86.md)
++ 6、[I/O设备管理](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/02OperationSystem/06IO%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86.md)
 
 ### 三、算法
 
 + 1、绪论
-+ 2、分治算法（divide-and-conquer）
++ 2、[分治算法（divide-and-conquer）](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/04Algorithm/02%E5%88%86%E6%B2%BB%E7%AE%97%E6%B3%95.md)
   + 使用场景：二分、合并排序、快速排序、矩阵乘法、大整数乘法
+    + 二分，是不是感觉，*既没有分，也没有治啊*
   + 不适合分治算法的场景：
 + 3、贪心算法
 + 4、动态规划
-+ 5、回溯算法
++ 5、[回溯算法](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/04Algorithm/05%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95.md)
 + 6、分支界限算法
 
 ### 四、系统系统结构
 
 + 1、绪论
-+ 2、数据表示、寻址方式与指令系统
++ 2、[数据表示、寻址方式与指令系统](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/05ComputerArchitecture/02%E6%95%B0%E6%8D%AE%E8%A1%A8%E7%A4%BA%E3%80%81%E5%AF%BB%E5%9D%80%E6%96%B9%E5%BC%8F%E4%B8%8E%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F.md)
   + **数据表示**：指的是能**由计算机硬件识别和引用的数据类型**，表现在它有对这种类型的数据进行操作的指令和运算部件。
   + **寻址方式**：指令**按什么方式寻找（或访问）到**所需的操作数或信息的。
   + **指令系统**：是程序设计者看计算机的主要属性，是软、硬件的主要界面，它在很大程度上决定了计算机具有的基本功能。
     + **指令**：由**操作码**和**地址码**两部分组成
-+ 3、存储、中断、总线与I/O系统
++ 3、[存储、中断、总线与I/O系统](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/05ComputerArchitecture/03%E5%AD%98%E5%82%A8%E3%80%81%E4%B8%AD%E6%96%AD%E3%80%81%E6%80%BB%E7%BA%BF%E4%B8%8EIO%E7%B3%BB%E7%BB%9F.md)
   + 这里的存储，主要是**并行主存系统**
   + 中断，OS里有
   + 总线
   + I/O系统，OS里有
-+ 4、存储体系
++ 4、[存储体系](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/05ComputerArchitecture/04%E5%AD%98%E5%82%A8%E4%BD%93%E7%B3%BB.md)
   + 有点像OS里的**存储（内存）管理**，应该要多个cache
+  + 虚拟存储器的管理方式（段式、页式、段页式）
+  + 地址的映射与变换（全相联、直接、级相联）
 + 5、标量处理机
 + 6、向量处理机
 + 7、多处理机
