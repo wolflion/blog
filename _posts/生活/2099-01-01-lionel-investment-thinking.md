@@ -4,11 +4,8 @@ title: 天行的投资思考、总结
 category: 生活     
 tags: 投资     
 keywords:   
-
 description:   
 ---  
-
-`![s28331946](https://img3.doubanio.com/lpic/s28331946.jpg`
 
 ##  缘起
 + 2023-01-25之前也看了一些投资书籍，可能之前只是看，现在要想着思考并寻找自己的答案**什么是好公司、什么是好价格**。
