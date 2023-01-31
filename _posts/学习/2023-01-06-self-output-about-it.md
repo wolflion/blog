@@ -119,6 +119,16 @@ description:
 
 ### 五、C++
 
+### 六、设计模式
+
++ 0、写在之前
+  + 在看DP之前，**要对面向对象语言的一些特性要熟**，主要是**virtual**
+
++ 1、创建型
++ 2、结构型：
+  + [代理模式Proxy](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/06DesignPattern/07Proxy%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.md)
++ 3、行为型
+
 
 ##  履历
 + 2023-01月整理下 数据结构 相关知识
