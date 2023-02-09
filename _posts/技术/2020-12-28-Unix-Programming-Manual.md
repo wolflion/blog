@@ -32,7 +32,12 @@ https://cloud.tencent.com/developer/news/106022 抄一下目录
 - **在文件原结尾处之后的某一个位置写入数据将导致文件空洞**（*lionel，这个怎么实现？*）
 - **未纳入标准I/O模型的所有设备和文件，ioctl()是个“百宝箱”**
 
-#### chap05、深入探究文件I/O
+#### [chap05、深入探究文件I/O](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/chap05%E6%B7%B1%E5%85%A5%E6%8E%A2%E7%A9%B6%E6%96%87%E4%BB%B6IO.md)
+
+#### [chap12、系统和进程信息](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/chap12%E7%B3%BB%E7%BB%9F%E5%92%8C%E8%BF%9B%E7%A8%8B%E4%BF%A1%E6%81%AF.md)
+
++ /proc文件系统向应用程序暴露了一系列内核信息。`/proc/PID子目录`
++ `uname()`获取UNIX的实现信息以及应用程序所运行的机器类型
 
 ### 三、系统编程接口的高级特性（13-23）
 
