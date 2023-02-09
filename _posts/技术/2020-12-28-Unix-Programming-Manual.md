@@ -11,7 +11,42 @@ description:
 ##  缘起
 + 还是要花时间好好把这本书啃掉，之前人家说这是手册翻翻的，但我越来越觉得，通过这本书可以建立知识框架。
 
+# [Linux/Unix系统编程手册 第三章：系统编程概念](https://www.cnblogs.com/pluse/p/6296992.html)
+
+https://man7.org/tlpi/code/online/book/lib/error_functions.h.html
+
+
+
+https://cloud.tencent.com/developer/news/106022 抄一下目录
+
 ##  内容
+
+### 一、01Linux背景知识及概念
+
+### 二、系统编程接口的基本特性（4-12）
+
+#### [chap04、文件I/O：通用的I/O模型](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/chap04%E6%96%87%E4%BB%B6IO%E9%80%9A%E7%94%A8%E7%9A%84IO%E6%A8%A1%E5%9E%8B.md)
+
+- open()拿到一个fd，然后read()、write()，用close()释放
+- **对于已打开的每个文件，内核都维护有一个文件偏移量**，这决定了下一次读或写操作的起始位置。
+- **在文件原结尾处之后的某一个位置写入数据将导致文件空洞**（*lionel，这个怎么实现？*）
+- **未纳入标准I/O模型的所有设备和文件，ioctl()是个“百宝箱”**
+
+#### chap05、深入探究文件I/O
+
+### 三、系统编程接口的高级特性（13-23）
+
+### 四、进程、程序及线程（24-33）
+
+### 五、进程及程序的高级主题（34-42）
+
+### 六、进程间通信（43-55）
+
+### 七、套接字及网络编程（56-61）
+
+### 八、高级I/O主题（62-64）
+
+
 
 ### chap30、[线程：线程同步](https://www.cnblogs.com/fewolflion/p/14209297.html)
 
