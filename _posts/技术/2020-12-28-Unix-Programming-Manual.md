@@ -21,6 +21,8 @@ https://cloud.tencent.com/developer/news/106022 抄一下目录
 
 ##  内容
 
++ [gcc入门](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/0gcc%E5%85%A5%E9%97%A8.md)
+
 ### 一、01Linux背景知识及概念
 
 ### 二、系统编程接口的基本特性（4-12）
