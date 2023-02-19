@@ -16,7 +16,9 @@ description:
 
 ### 202301、[阅读hellofs源码](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/20FileSystem/01MonthOutput/202301%E9%98%85%E8%AF%BBhellofs%E6%BA%90%E7%A0%81.md)
 
-### 202302、[《内核探秘：深入解析文件系统和设备驱动的架构与设计》阅读笔记](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/20FileSystem/01MonthOutput/202302%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E5%92%8C%E8%AE%BE%E5%A4%87%E9%A9%B1%E5%8A%A8%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.md)
+### 202302、[文件系统的流程整理](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/20FileSystem/01MonthOutput/202302%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E9%98%85%E8%AF%BB%E8%BE%93%E5%87%BA.md)
+
++ 《内核探秘：深入解析文件系统和设备驱动的架构与设计》的阅读笔记，限文件系统部分，设备驱动也看了，不在这
 
 + **[Linux IO stack的架构图](http://www.ilinuxkernel.com/files/Linux.IO.stack_v1.0.pdf )**，最好在读之前了解一下，大概知道各个名词在哪个阶段里。
 
