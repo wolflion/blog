@@ -21,8 +21,14 @@ description:
 + 3、CMake自动配置
   + `File -> Settings -> Plugins，选择Marketplace选项卡
     搜索C/C++ Single FIle Execution 安装即可`
+  + [（十四）实践出真知——CMakeLists语法与实战](https://zhuanlan.zhihu.com/p/406559772)
 
 ### 二、VSCode
+
+#### 2.0、通用配置
+
++ 配置`Remote-ssh`工具，这样**可以访问服务器上的代码**，不需要再用`samba`的方式
+  + [VSCode使用 - Remote-SSH 配置说明](https://blog.csdn.net/jackailson/article/details/125341008)
 
 ### 三、VS
 
