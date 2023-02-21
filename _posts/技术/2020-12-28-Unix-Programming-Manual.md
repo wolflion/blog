@@ -135,23 +135,23 @@ https://cloud.tencent.com/developer/news/106022 抄一下目录
 
 ### 七、套接字及网络编程（56-61）
 
-#### chap56、socket：介绍
+#### chap56、[socket：介绍](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/07Part7Socket/chap56SOCKET-%E4%BB%8B%E7%BB%8D.md)
 
 + 大多数应用程序使用流socket和数据报socket中的一种。
 + 一个典型的流socket服务器
 + 一个典型的数据报socket服务器
 
-#### chap57、
+#### chap57、[socket：unix domain](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/07Part7Socket/chap57SOCKET-UNIX%20DOMAIN.md)
 
 + UNIX domain socket是通过文件系统中的一个路径名来标识的。
 
-#### chap58、
+#### chap58、[socket：TCP/IP网络基础](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/07Part7Socket/chap58SOCKET-TCPIP%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80.md)
 
-#### chap59、
+#### chap59、[socket：Internet domain](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/07Part7Socket/chap59SOCKET-Internet%20DOMAIN.md)
 
-#### chap60、
+#### chap60、[socket：服务器设计](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/07Part7Socket/chap60SOCKET-%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%AE%BE%E8%AE%A1.md)
 
-#### chap61、
+#### chap61、[socket：高级主题](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/07Part7Socket/chap61SOCKET-%E9%AB%98%E7%BA%A7%E4%B8%BB%E9%A2%98.md)
 
 ### 八、高级I/O主题（62-64）
 
