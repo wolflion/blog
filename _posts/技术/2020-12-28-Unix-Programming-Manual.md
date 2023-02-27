@@ -36,6 +36,18 @@ https://cloud.tencent.com/developer/news/106022 抄一下目录
 
 #### [chap05、深入探究文件I/O](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/02Part2IO/chap05%E6%B7%B1%E5%85%A5%E6%8E%A2%E7%A9%B6%E6%96%87%E4%BB%B6IO.md)
 
+chap06、
+
+chap07、
+
+chap08、
+
+chap09、
+
+chap10、
+
+chap11、
+
 #### [chap12、系统和进程信息](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/02Part2IO/chap12%E7%B3%BB%E7%BB%9F%E5%92%8C%E8%BF%9B%E7%A8%8B%E4%BF%A1%E6%81%AF.md)
 
 + /proc文件系统向应用程序暴露了一系列内核信息。`/proc/PID子目录`
@@ -58,12 +70,24 @@ https://cloud.tencent.com/developer/news/106022 抄一下目录
 + 每个文件都有一个与之相关的用户ID（属主）和组ID，以及一组权限位。
 + I节点标记控制着文件和目录的各种行为。
 
+chap16、
+
+chap17、
+
+chap18、
+
+chap19、
+
 #### chap20、
 
 + 信号是发生某种事件的通知机制
 + 信号传递通常是异步行为
 + 发送信号：`kill()`
 + 接收信号：`pause()`
+
+chap21、
+
+chap22、
 
 #### chap23、
 
@@ -131,7 +155,51 @@ https://cloud.tencent.com/developer/news/106022 抄一下目录
 
 ### 五、进程及程序的高级主题（34-42）
 
+chap34、
+
+chap35、
+
+chap36、
+
+chap37、
+
+chap38、
+
+chap39、
+
+chap40、
+
+chap41、
+
+chap42、
+
 ### 六、进程间通信（43-55）
+
+#### chap43、进程间通信简介
+
+#### chap44、管道和FIFO
+
+#### chap45、System V:IPC介绍
+
+#### chap46、System V:消息队列
+
+#### chap47、System V:信号量
+
+#### chap48、System V:共享内存
+
+#### chap49、内存映射
+
+#### chap50、虚拟内存操作
+
+#### chap51、POSIX:IPC介绍
+
+#### chap52、POSIX:消息队列
+
+#### chap53、POSIX:信号量
+
+#### chap54、POSIX:共享内存
+
+#### chap55、POSIX:文件加锁
 
 ### 七、套接字及网络编程（56-61）
 
@@ -164,28 +232,24 @@ https://cloud.tencent.com/developer/news/106022 抄一下目录
 
 #### chap64、
 
-
-
-### chap30、[线程：线程同步](https://www.cnblogs.com/fewolflion/p/14209297.html)
-
-+ 1、互斥量和条件变量`pthread_cond_t`
-
-### chap31、[线程：线程安全和每线程存储](https://www.cnblogs.com/fewolflion/p/14204253.html)
-
-+ 1、什么是**线程安全**【多个线程同时调用】，什么是**可重入函数**【无需使用互斥量即可实现线程安全】。
-+ 2、导致函数非线程安全的原因：**使用全局或静态变量**。
-+ 3、保障非线程安全函数的方式：（1）用互斥锁对函数的调用；（2）仅在函数中操作共享变量的代码前后加入互斥锁。
-+ 4、**线程特有数据**：使用相关API
-  + `int pthread_key_create(pthread_key_t *key, void(*destructor)(void*))`
-  + `int pthread_setspecific(pthread_key_t key, const void* value)`
-  + `int *pthread_getspecific(pthread_key_t key)`
-+ 5、**线程局部存储**：在全局变量声明时加入`__thread`关键字。
-
-### chap32、[线程：线程取消](https://www.cnblogs.com/fewolflion/p/14209205.html)
-
 ## 履历
 + 20201228-chap31第一遍阅读和整理。
 
 ## 参考
 
-+ 
++ ### chap30、[线程：线程同步](https://www.cnblogs.com/fewolflion/p/14209297.html)
+
+  + 1、互斥量和条件变量`pthread_cond_t`
+
+  ### chap31、[线程：线程安全和每线程存储](https://www.cnblogs.com/fewolflion/p/14204253.html)
+
+  + 1、什么是**线程安全**【多个线程同时调用】，什么是**可重入函数**【无需使用互斥量即可实现线程安全】。
+  + 2、导致函数非线程安全的原因：**使用全局或静态变量**。
+  + 3、保障非线程安全函数的方式：（1）用互斥锁对函数的调用；（2）仅在函数中操作共享变量的代码前后加入互斥锁。
+  + 4、**线程特有数据**：使用相关API
+    + `int pthread_key_create(pthread_key_t *key, void(*destructor)(void*))`
+    + `int pthread_setspecific(pthread_key_t key, const void* value)`
+    + `int *pthread_getspecific(pthread_key_t key)`
+  + 5、**线程局部存储**：在全局变量声明时加入`__thread`关键字。
+
+  ### chap32、[线程：线程取消](https://www.cnblogs.com/fewolflion/p/14209205.html)
