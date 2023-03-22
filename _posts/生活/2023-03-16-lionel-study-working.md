@@ -1,7 +1,7 @@
 layout: post  
 title: lionel的学习、工作上思考  
 category: 生活     
-tags: 方法     
+tags: 方法
 keywords:   
 
 description:   
