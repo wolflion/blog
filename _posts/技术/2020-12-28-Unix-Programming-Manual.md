@@ -22,6 +22,11 @@ https://cloud.tencent.com/developer/news/106022 抄一下目录
 ##  内容
 
 + [gcc入门](https://gitee.com/fewolflion/BookNote/blob/master/01lioneloutput/21UnixPrograming/0gcc%E5%85%A5%E9%97%A8.md)
++ 要问自己4个问题
+  + more命令能做什么？**分析程序**
+  + more命令是如何实现的？**学习系统调用**
+  + 能不能自己编写一个more命令？**编程实现**
+  + 代码还能不能再优化？
 
 ### 一、01Linux背景知识及概念
 
